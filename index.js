@@ -27,7 +27,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
-//----------- middleware
+//-----------all  middleware 
 app.use(express.json({limit:'20mb'}));
 app.use(morgan('common'));
 // app.use(bodyParser.json({limit:'20mb'}));
